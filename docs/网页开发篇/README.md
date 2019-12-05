@@ -16,3 +16,7 @@ jQuery之家，网址：http://www.htmleaf.com/
 HTML5 Tricks，网站：https://www.html5tricks.com/
 <br>&emsp; 
 提供各种 HTML5、CSS3、jQuery 插件美观网页模板。不限下载，但是不提供归档检索服务。好感度 4.5分
+<br>&emsp; <br>&emsp; 
+站长素材，网址：http://sc.chinaz.com/
+<br>&emsp; 
+提供大量网站类素材，不限下载，但是素材大部分相对偏老。好感度 4分
