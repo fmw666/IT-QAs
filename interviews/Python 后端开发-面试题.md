@@ -17,3 +17,13 @@
 
     &emsp;&emsp;答：Jinja2 是基于 Python 的模板引擎，它的设计思想来源于 Django 的模板引擎，并扩展了其语法和一系列强大的的功能。模板引擎是为了使用户 UI 界面与业务逻辑数据分离而产生的，在 Python Web 开发中，这部分文档放在 templates 文件夹下，并且在 render 渲染时转换为 html 文档。
 
+1. **WSGI、uwsgi、uWSGI 三个概念的区分？**
+
+    &emsp;&emsp;答：WSGI 是一种通信协议，是 Web 服务器（如 nginx、uWSGI 等服务器）与 Web 应用（如 Django 框架程序）通信的一种规范。
+    &emsp;&emsp;uwsgi 是一种线路协议而不是通信协议，常用于 uWSGI 服务器与其他网络服务器的数据通信。
+    &emsp;&emsp;uWSGI 是实现了 uwsgi 和 WSGI 两种协议的 Web 服务器。
+
+1. **谈一下你对 uWSGI 和 nginx 的理解？**
+
+    &emsp;&emsp;答：uWSGI 是一个 Web 服务器，它实现了 WSGI 协议、uwsgi、http 等协议。Nginx 中 HttpUwsgiModule 的作用是与 uWSGI 服务器进行交换。
+    &emsp;&emsp;nginx 是一个开源的高性能 http 服务器和反向代理。
